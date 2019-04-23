@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html  lang=fr dir="ltr">
+<html lang=fr dir="ltr">
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,169 +16,379 @@
   <link rel="stylesheet" href="./css/master.css">
   <link rel="stylesheet" href="./css/media.css">
 
-  <!-- link all the scripts -->
-  <script src="./scripts/jquery-3.3.1.min.js"></script>
-  <script src="./scripts/uikit.js"></script>
-  <script src="./scripts/uikit-icons.js"></script>
-
   <!-- link all the style -->
-  <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');</style>
-  <style>@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');</style>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
 </head>
 
 <body>
+
   <header>
-    <div class="usefull-header">
+
+    <div class="header-wrapper">
+
       <div class="container-header">
-        <div class="container-logo">
-          <img src="./images/logo_header_mf.png" alt="Malika Favre">
-          <h1>French artist based in London</h1>
+
+        <div class="header-content">
+
+          <div class="container-logo">
+
+            <h1>
+              <img src="./images/logo_mf.png" alt="Malika Favre">
+            </h1>
+
+          </div>
+
+          <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <div class="uk-navbar-left">
+
+              <ul class="uk-navbar-nav">
+
+                <li>
+                  <a href="#">
+                    ABOUT
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    NEW COLLABORATION
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" uk-icon="icon: facebook"></a>
+                </li>
+
+                <li>
+                  <a href="#" uk-icon="icon: twitter"></a>
+                </li>
+
+                <li>
+                  <a href="#" uk-icon="icon: instagram"></a>
+                </li>
+
+              </ul>
+
+            </div>
+            <!---->
+
+          </nav>
+          <!---->
+
+          <div class="container-text-header">
+            <p>
+              Lorsque notre regard se pose sur les créations de Malika Favre, c’est tout notre imaginaire qui se fait
+              happer par une spirale
+              de couleurs et de motifs. Des aplats francs, revendiqués comme une rencontre entre le Pop Art et l’OpArt,
+              deux disciplines
+              évoquant les années 60. Une sorte de machine à remonter le temps faite de lignes et de contre-formes où la
+              simplicité
+              règne en maîtresse absolue. Ce style illustratif reconnaissable entre mille a permis à Malika de se hisser
+              au rang des visual
+              artist les plus courus du moment. À son compteur : des campagnes pour les plus grandes marques mais aussi
+              –
+              et surtout –
+              des couvertures pour le très respecté New Yorker.
+            </p>
+
+            <p>
+              Un rêve devenu réalité pour cette parisienne exilée depuis une dizaine d’années à Londres. Cette ville, la
+              française ne l’avait
+              – à la base – pas choisie. Des études qui se terminent, un stage qui se concrétise et puis la vie,
+              bouillonnante et créative de
+              la capitale anglaise. Séduite, Malika apprivoise sa liberté. Une philosophie qui ne la quittera jamais.
+              Sans
+              trop réfléchir la
+              dessinatrice enchaîne les contrats, les voyage beaucoup surtout. D’escales en escales les collaborations
+              s’enchaînent,son
+              univers s’étoffe. Portée par une conviction intime d’y arriver, Malika voit ses projets s’esquisser
+              doucement. Une possible
+              future installation à Barcelone, une exposition inspirée par le Crazy Horse et ses jeux de lumières
+              graphiques ou encore une
+              collaboration inédite avec la créatrice Alice Balas.
+            </p>
+
+          </div>
+          <!--container-text-header-->
+
+          <div class="video1">
+            <iframe src="https://player.vimeo.com/video/256327801" width="640px" height="360px" frameborder="0"
+              webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+
+        </div>
+        <!--header-content-->
+
+        <div class="visual-header">
+          <img src="./images/background_crazyhorse.png" alt="Artwork: © Malika Favre">
         </div>
 
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
-              <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
-                  <li class="uk-active"><a href="#">ABOUT</a></li>
-                  <li class="uk-active"><a href="#">NEW COLLABORATION</a></li>
-                  <li class="uk-active"><a href="#" uk-icon="icon: facebook"></a></li>
-                  <li class="uk-active"><a href="#" uk-icon="icon: twitter"></a></li>
-                  <li class="uk-active"><a href="#" uk-icon="icon: instagram"></a></li>
-                </ul>
-              </div>
-            </nav>
-
-        <div class="container-text-header">
-          <p>Lorsque notre regard se pose sur les créations de Malika Favre, c’est tout notre imaginaire qui se fait happer par une spirale
-            de couleurs et de motifs. Des aplats francs, revendiqués comme une rencontre entre le Pop Art et l’OpArt, deux disciplines
-            évoquant les années 60. Une sorte de machine à remonter le temps faite de lignes et de contre-formes où la simplicité
-            règne en maîtresse absolue. Ce style illustratif reconnaissable entre mille a permis à Malika de se hisser au rang des visual
-            artist les plus courus du moment. À son compteur : des campagnes pour les plus grandes marques mais aussi – et surtout –
-            des couvertures pour le très respecté New Yorker. </p>
-            <p>Un rêve devenu réalité pour cette parisienne exilée depuis une dizaine d’années à Londres. Cette ville, la française ne l’avait
-            – à la base – pas choisie. Des études qui se terminent, un stage qui se concrétise et puis la vie, bouillonnante et créative de
-            la capitale anglaise. Séduite, Malika apprivoise sa liberté. Une philosophie qui ne la quittera jamais. Sans trop réfléchir la
-            dessinatrice enchaîne les contrats, les voyage beaucoup surtout. D’escales en escales les collaborations s’enchaînent,son
-            univers s’étoffe. Portée par une conviction intime d’y arriver, Malika voit ses projets s’esquisser doucement. Une possible
-            future installation à Barcelone, une exposition inspirée par le Crazy Horse et ses jeux de lumières graphiques ou encore une
-            collaboration inédite avec la créatrice Alice Balas.</p>
-        </div>
-        <div class="video1">
-          <iframe src="https://player.vimeo.com/video/256327801" width="100%" height="610" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
       </div>
+      <!--container-header-->
+    </div>
+    <!--header-wrapper-->
+
   </header>
+
   <main>
+
     <div class="section-parcours">
-      <div class="container-text-parcours">
-        <h2>SON PARCOURS</h2>
-        <p>Malika Favre est diplômée de l’École nationale supérieure des arts appliqués & des métiers d'art de Paris (ENSAAMA) & du
-          Surrey Institute of Art and Design de Farnham en Grande-Bretagne.Elle vit et travaille à Londres, tout d'abord comme
-          directrice artistique au sein de l'agence de création AirSide,puis chez Unit à partir de 2006.</p>
-        <p>Son style graphique épuré assez singulier, mêlant Pop Art et Op Art, est mis à contribution par des entreprises telles que
-          Sephora, Le Bon Marché, Penguin Books, des journaux tels que Vogue, The New York Times, The New Yorker,
-          The Sunday Times, ou Vanity Fair, etc.</p>
-        <p>Elle se voit confier également l'affiche du festival de Jazz de Montreux en 2017. prolongeant une de ses créations pour
-          Penguin, une couverture d'une édition du Kamasutra, elle s'amuse à concevoir un alphabet animé inspiré du Kamasutra,
-          présenté sur internet et au festival art et graphique 2013 de Londres.</p>
-        <p>Son dessin de Une pour The New Yorker, intitulé « Operating Theatre », esquissant quatre chirurgiennes se penchant sur leur
-          patient,est devenu un signe de ralliement, sur les réseaux sociaux, pour de nombreuses chirurgiennes, aux États-Unis et
-          d’autres pays, désirant affirmer la féminisation d’une profession encore souvent considérée comme « un métier d’homme ».</p>
+
+      <div class="parcour-wrapper">
+
+        <div class="parcour-visuel">
+          <img src="./images/background_girl1.png" alt="Artwork: © Malika Favre">
+        </div>
+        <div class="parcour-text">
+          <h2>
+            SON PARCOURS
+          </h2>
+
+          <p>
+            Malika Favre est diplômée de l’École nationale supérieure des arts appliqués & des métiers d'art de Paris
+            (ENSAAMA) & du
+            Surrey Institute of Art and Design de Farnham en Grande-Bretagne.Elle vit et travaille à Londres, tout
+            d'abord
+            comme
+            directrice artistique au sein de l'agence de création AirSide,puis chez Unit à partir de 2006.
+          </p>
+
+          <p>
+            Son style graphique épuré assez singulier, mêlant Pop Art et Op Art, est mis à contribution par des
+            entreprises telles que
+            Sephora, Le Bon Marché, Penguin Books, des journaux tels que Vogue, The New York Times, The New Yorker,
+            The Sunday Times, ou Vanity Fair, etc.
+          </p>
+
+          <p>
+            Elle se voit confier également l'affiche du festival de Jazz de Montreux en 2017. prolongeant une de ses
+            créations pour
+            Penguin, une couverture d'une édition du Kamasutra, elle s'amuse à concevoir un alphabet animé inspiré du
+            Kamasutra,
+            présenté sur internet et au festival art et graphique 2013 de Londres.
+          </p>
+
+          <p>
+            Son dessin de Une pour The New Yorker, intitulé « Operating Theatre », esquissant quatre chirurgiennes se
+            penchant sur leur
+            patient,est devenu un signe de ralliement, sur les réseaux sociaux, pour de nombreuses chirurgiennes, aux
+            États-Unis et
+            d’autres pays, désirant affirmer la féminisation d’une profession encore souvent considérée comme « un
+            métier
+            d’homme ».
+          </p>
+        </div>
+
       </div>
     </div>
-    <div class="section-style uk-flex">
-      <div class="container01">
+
+    <div class="section-style">
+
+      <div class="style-left">
+
         <div class="container-text-style">
-          <h2>SON STYLE</h2>
-          <p>Pop, minimaliste, coloré & sexy. Lignes & couleurs réduitent.
-            Simplicité, jeux de formes et contre-formes</p>
+
+          <h2>
+            SON STYLE
+          </h2>
+
+          <p>
+            Pop, minimaliste, coloré & sexy. Lignes & couleurs réduitent.
+            Simplicité, jeux de formes et contre-formes
+          </p>
+
         </div>
+
         <div class="container-img-style">
           <img src="./images/image_bd.png" alt="Artwork: © Malika Favre">
         </div>
+
       </div>
-      <div class="container02">
-        <div class="container-citation-style">
+
+      <div class="style-right">
+
+        <div class="container-quote-style">
           <img src="./images/section_style_bloc.png" alt="Artwork: © Malika Favre">
         </div>
       </div>
+
     </div>
+
     <div class="section-methodo">
-        <div class="container-methodo">
-          <div class="video2">
-            <iframe width="1035px" height="580px" src="https://www.youtube.com/embed/nPGABk4d9NA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="container-text-methodo">
-            <h2>SA MÉTHODOLOGIE</h2>
-            <p>Etant isue des arts graphiques, Malika Favre suit une méthodologie de conception bien particulière, qu’elle s’est elle même imposé.
-              Ces 4 petites régles indispensables pour la réalisation de ses oeuvres sont les suivantes :</p>
-              <ul>
-                <li>Un élément de vent (une oiseau, cerf-volant, avion..)</li>
-                <li>Un élément vivant (animal ou humain)</li>
-                <li>Un élément naturel (des arbres, plantes, fleurs...)</li>
-                <li>Un élément artificiel (crééer par la main de l’homme ; Batiments, bateaux...)</li>
-              </ul>
-              <p>On retrouve - la plupart du temps -  tout ces éléments dans chacunes de ses créations.
-                Grâce a cette méthode, les oeuvres de Malika Favre sont completent & harmonieuses.</p>
-              </div>
-            </div>
+
+      <div class="container-methodo">
+
+        <div class="visuel-methodo">
+          <img src="./images/background_girl3.png" alt="Artwork: © Malika Favre">
         </div>
-    <div class="container-onthedraw">
-      <div class="container-text-onthedraw">
-        <h2>#ONTHEDRAW</h2>
+
+        <div class="video2">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nPGABk4d9NA" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="text-methodo">
+
+          <h2>
+            SA MÉTHODOLOGIE
+          </h2>
+
+          <p>
+            Etant isue des arts graphiques, Malika Favre suit une méthodologie de conception bien particulière,
+            qu’elle s’est elle même imposé.
+            Ces 4 petites régles indispensables pour la réalisation de ses oeuvres sont les suivantes :
+          </p>
+
+          <ul>
+            <li>
+              Un élément de vent (une oiseau, cerf-volant, avion..)
+            </li>
+            <li>
+              Un élément vivant (animal ou humain)
+            </li>
+            <li>
+              Un élément naturel (des arbres, plantes, fleurs...)
+            </li>
+            <li>
+              Un élément artificiel (crééer par la main de l’homme ; Batiments, bateaux...)
+            </li>
+          </ul>
+
+          <p>
+            On retrouve - la plupart du temps - tout ces éléments dans chacunes de ses créations.
+            Grâce a cette méthode, les oeuvres de Malika Favre sont completent & harmonieuses.
+          </p>
+
+        </div>
+
       </div>
+    </div>
+
+    <div class="container-onthedraw">
+
+      <div class="container-text-onthedraw">
+        <h2>
+          #ONTHEDRAW
+        </h2>
+      </div>
+
       <div class="uk-child-width-1-6 uk-grid-small" uk-grid>
-      <div><img src="./images/onthedraw01.png" alt="#ONTHEDRAW"></div>
-      <div><img src="./images/onthedraw02.png" alt="#ONTHEDRAW"></div>
-      <div><img src="./images/onthedraw03.png" alt="#ONTHEDRAW"></div>
-      <div><img src="./images/onthedraw04.png" alt="#ONTHEDRAW"></div>
-      <div><img src="./images/onthedraw05.png" alt="#ONTHEDRAW"></div>
-      <div><img src="./images/onthedraw06.png" alt="#ONTHEDRAW"></div>
+        <div>
+          <img src="./images/onthedraw01.png" alt="#ONTHEDRAW">
+        </div>
+        <div>
+          <img src="./images/onthedraw02.png" alt="#ONTHEDRAW">
+        </div>
+        <div>
+          <img src="./images/onthedraw03.png" alt="#ONTHEDRAW">
+        </div>
+        <div>
+          <img src="./images/onthedraw04.png" alt="#ONTHEDRAW">
+        </div>
+        <div>
+          <img src="./images/onthedraw05.png" alt="#ONTHEDRAW">
+        </div>
+        <div>
+          <img src="./images/onthedraw06.png" alt="#ONTHEDRAW">
+        </div>
       </div>
     </div>
   </main>
 
   <footer>
+
     <div class="usefull-footer">
-      <div class="container-footer01">
-        <div class="container-logo-footer">
+
+      <div class="footer-visuel-wrapper">
+        <img src="./images/background-footer.png" alt="Artwork: © Malika Favre">
+      </div>
+
+      <div class="footer-content-wrapper">
+
+        <div class="footer-logo-visuel">
           <img src="./images/logo_mf.png" alt="Malika Favre">
         </div>
-        <div class="container-socialmedia">
-          <ul class="uk-iconnav">
-            <li><a href="#" uk-icon="icon: facebook"></a></li>
-            <li><a href="#" uk-icon="icon: twitter"></a></li>
-            <li><a href="#" uk-icon="icon: instagram"></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="container-footer02">
-        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
-          <div>
+
+        <div class="footer-first-nav">
+
+          <nav>
             <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Recherche avancée</a></li>
-              <li><a href="#">Wikipédia</a></li>
+              <li>
+                <a href="#">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Recherche avancée
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Wikipédia
+                </a>
+              </li>
             </ul>
-          </div>
-          <div>
+
             <ul>
-              <li>Site Officiel:</li>
-              <li><a href="#">Malika Favre</a></li>
-              <li>Worldwide:</li>
-              <li><a href="#">Handsome Frank</a></li>
+              <li>
+                <p>
+                  Site Officiel:
+                </p>
+                <a href="#">
+                  Malika Favre
+                </a>
+              </li>
+              <li>
+                <p>
+                  Worldwide:
+                </p>
+                <a href="#">
+                  Handsome Frank
+                </a>
+              </li>
             </ul>
-          </div>
+
+          </nav>
+
         </div>
-      </div>
-      <div class="container-footer03">
-        <p>Toutes les illustrations de ce site sont crééer & appartiennent à Malika Favre</p>
-        <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
-          <div><a href="#">Mentions légales & Confidentialité</a></div>
-          <div><a href="#">Plan du site</a></div>
+
+        <div class="footer-second-nav">
+
+          <p>
+            Toutes les illustrations de ce site sont crééer & appartiennent à Malika Favre
+          </p>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="#">
+                  Mentions légales & Confidentialité
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Plan du site
+                </a>
+              </li>
+            </ul>
+          </nav>
+
         </div>
+
       </div>
     </div>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+    <!-- link all the scripts -->
+    <script src="./scripts/uikit.js"></script>
+    <script src="./scripts/uikit-icons.js"></script>
+    <script src="./scripts/master.js"></script>
+
 </body>
+
 </html>
